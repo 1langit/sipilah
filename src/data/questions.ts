@@ -1,0 +1,24 @@
+import { Question } from "@/type/question";
+
+export const questions: Question[] = [
+    {text:"Apa yang termasuk sampah organik?",options:["Botol plastik","Kaleng minuman","Sisa nasi","Kertas bekas"],answer:"Sisa nasi"},
+    {text:"Apa dampak negatif membuang sampah organik tanpa dipilah?",options:["Menjadi pupuk otomatis","Menghasilkan bau dan gas berbahaya","Dapat dijual ke bank sampah","Tidak berdampak apa-apa"],answer:"Menghasilkan bau dan gas berbahaya"},
+    {text:"Sampah yang bisa didaur ulang antara lain…",options:["Popok sekali pakai","Styrofoam","Kardus bekas","Sisa sayur"],answer:"Kardus bekas"},
+    {text:"Sampah plastik yang tidak bisa didaur ulang contohnya…",options:["Botol air mineral","Plastik kresek tipis","Wadah plastik makanan","Ember plastik"],answer:"Plastik kresek tipis"},
+    {text:"Baterai bekas termasuk dalam jenis sampah…",options:["Organik","Anorganik","Daur ulang","B3 (berbahaya dan beracun)"],answer:"B3 (berbahaya dan beracun)"},
+    {text:"Apa yang sebaiknya dilakukan sebelum membuang botol plastik?",options:["Dihancurkan pakai palu","Dicuci dan dikeringkan","Dibungkus plastik baru","Dibuang ke tong sampah biasa"],answer:"Dicuci dan dikeringkan"},
+    {text:"Sampah B3 harus dibuang ke…",options:["Sungai","Tempat pembakaran","Tempat sampah umum","Fasilitas khusus penanganan limbah berbahaya"],answer:"Fasilitas khusus penanganan limbah berbahaya"},
+    {text:"Dampak negatif dari mencampur semua jenis sampah adalah…",options:["Lebih mudah diolah","Proses daur ulang jadi lebih cepat","Sulit diproses dan menimbulkan pencemaran","Tidak berdampak karena akan dibakar"],answer:"Sulit diproses dan menimbulkan pencemaran"},
+    {text:"Apa keuntungan memilah sampah dari rumah?",options:["Menambah pekerjaan rumah","Mengurangi pencemaran","Menghemat air","Membuat dapur lebih bau"],answer:"Mengurangi pencemaran"},
+    {text:"Contoh sampah anorganik yang bisa dijual ke bank sampah adalah…",options:["Kulit pisang","Kaca botol bekas","Popok","Sisa nasi"],answer:"Kaca botol bekas"},
+    {text:"Apa yang terjadi jika sampah organik dipisahkan dengan benar?",options:["Menjadi pupuk kompos","Tidak bisa dimanfaatkan","Harus dibakar","Meningkatkan gas rumah kaca"],answer:"Menjadi pupuk kompos"},
+    {text:"Kenapa popok sekali pakai tidak bisa didaur ulang?",options:["Karena harganya murah","Karena terlalu kecil","Karena tercampur limbah biologis","Karena terlalu berat"],answer:"Karena tercampur limbah biologis"},
+    {text:"SiPilah adalah platform yang membantu masyarakat…",options:["Membakar sampah dengan benar","Membeli sampah organik","Mendeteksi dan memilah sampah dengan bantuan AI","Menyediakan tempat pembuangan"],answer:"Mendeteksi dan memilah sampah dengan bantuan AI"},
+    {text:"Fungsi fitur AI di SiPilah adalah untuk…",options:["Menyortir sampah secara manual","Mendeteksi jenis sampah dari foto","Menghitung jumlah sampah di rumah","Menghilangkan sampah otomatis"],answer:"Mendeteksi jenis sampah dari foto"},
+    {text:"Mengapa penting mencuci botol plastik sebelum didaur ulang?",options:["Agar botol terlihat baru","Untuk mencegah bau dan menjaga kualitas daur ulang","Supaya mudah dipotong","Untuk membuatnya lebih berat"],answer:"Untuk mencegah bau dan menjaga kualitas daur ulang"},
+    {text:"Contoh perilaku ramah lingkungan adalah…",options:["Mencampur semua sampah","Mengubur sampah plastik","Memilah dan mendaur ulang sampah rumah tangga","Membakar sampah di halaman rumah"],answer:"Memilah dan mendaur ulang sampah rumah tangga"},
+    {text:"Jika anak-anak belajar memilah sampah sejak dini, maka…",options:["Mereka jadi sering bermain di tempat sampah","Mereka terbiasa buang sampah sembarangan","Mereka tumbuh jadi pribadi yang peduli lingkungan","Mereka tidak akan mau memilah lagi saat dewasa"],answer:"Mereka tumbuh jadi pribadi yang peduli lingkungan"},
+    {text:"Apa yang sebaiknya dilakukan terhadap obat kadaluarsa?",options:["Dibuang ke saluran air","Dicampur ke sampah basah","Disimpan selamanya","Diserahkan ke tempat pengumpulan limbah B3"],answer:"Diserahkan ke tempat pengumpulan limbah B3"},
+    {text:"Apa yang dimaksud dengan sampah anorganik tidak dapat didaur ulang?",options:["Sampah yang bisa jadi kompos","Sampah yang tidak bisa digunakan ulang atau diproses kembali","Sampah yang mudah terurai","Sampah yang bisa dimakan"],answer:"Sampah yang tidak bisa digunakan ulang atau diproses kembali"},
+    {text:"Mengapa sampah plastik di laut berbahaya bagi hewan?",options:["Karena mengganggu pemandangan","Karena plastik bisa meledak","Karena bisa dimakan dan menyumbat saluran pencernaan","Karena plastik bisa membuat laut asin"],answer:"Karena bisa dimakan dan menyumbat saluran pencernaan"}
+];
