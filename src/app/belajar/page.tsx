@@ -1,4 +1,4 @@
-import { Cta11 } from "@/components/cta11";
+import { Cta11 } from "@/components/block/cta11";
 import { NotebookPen } from "lucide-react";
 import QuizImage from "@/assets/quiz.jpg"
 

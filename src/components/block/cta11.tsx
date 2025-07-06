@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image";
-import { buttonVariants } from "./ui/button";
+import { buttonVariants } from "../ui/button";
 import Link from "next/link";
 import { LucideIcon } from "lucide-react";
 import SampleImage from "@/assets/sample.jpg"

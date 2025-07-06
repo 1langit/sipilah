@@ -1,9 +1,9 @@
 import Hero from "@/components/module/landing/hero";
 import CallToAction from "@/components/module/landing/call-to-action";
-import { Community1 } from "@/components/community1";
-import { Feature74 } from "@/components/feature74";
-import { Blog7 } from "@/components/blog7";
-import { Feature13 } from "@/components/feature13";
+import { Community1 } from "@/components/block/community1";
+import { Feature74 } from "@/components/block/feature74";
+import { Blog7 } from "@/components/block/blog7";
+import { Feature13 } from "@/components/block/feature13";
 import Logo from "@/assets/logo.png";
 import WhatImage from "@/assets/w-what.jpg";
 import WhyImage from "@/assets/w-why.jpg";
@@ -13,7 +13,7 @@ import B3Image from "@/assets/j-b3.jpg";
 import ResidueImage from "@/assets/j-residue.jpg";
 import NoImage from "@/assets/d-no.jpg";
 import { Apple, BatteryMedium, BottleWine, Check, House, InspectionPanel, Leaf, Lightbulb, Package, PaintBucket, Pill, Recycle, Scroll, X } from "lucide-react";
-import { Feature16 } from "@/components/feature16";
+import { Feature16 } from "@/components/block/feature16";
 
 export default function HomePage() {
     return (
