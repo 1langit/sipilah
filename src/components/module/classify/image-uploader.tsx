@@ -74,7 +74,7 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange }) =
       {fileRejections.length !== 0 && (
         <Badge variant="destructive">
           <TriangleAlert />
-          Gambar harus kurang dari 5MB dan bertipe png, jpg, jpeg
+          Gambar harus kurang dari 4.5MB dan bertipe png, jpg, jpeg
         </Badge>
       )}
     </div>

@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import BannerImage from "@/assets/w-why.jpg"
+import BannerImage from "@/assets/h-banner.jpg"
 import Image from "next/image";
 
 export default function Hero() {

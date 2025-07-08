@@ -87,7 +87,7 @@ const Blog7 = ({
           </Button>
           }
         </div>
-        <div className={`grid gap-x-6 md:grid-cols-2 lg:grid-cols-${postCountOnLg} lg:gap-8`}>
+        <div className={`grid gap-x-6 md:grid-cols-2 lg:grid-cols-${postCountOnLg} md:gap-8`}>
           {posts.map((post) => (
             <Card
               key={post.id}

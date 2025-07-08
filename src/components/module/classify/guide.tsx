@@ -11,7 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { BookOpen, CircleQuestionMark, Eye, NotebookPen } from "lucide-react";
 import Image from "next/image";
-import PreviewImage from "@/assets/sample.jpg"
+import PreviewImage from "@/assets/c-guide.png"
 
 const Guide = () => {
     return (
@@ -28,7 +28,7 @@ const Guide = () => {
                     </AlertDialogTitle>
                     <AlertDialogDescription asChild>
                         <div className="text-left text-sm text-muted-foreground">
-                            <Image src={PreviewImage} alt="preview" className="object-cover aspect-[3/1]" />
+                            <Image src={PreviewImage} alt="preview" className="" />
                             <br />
                             <b>Cukup unggah foto, dan AI kami akan:</b>
                             <ul className="space-y-1 pt-2">
