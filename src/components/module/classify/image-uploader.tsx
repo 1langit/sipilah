@@ -134,7 +134,19 @@ export const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange }) =
       {fileRejections.length !== 0 && (
         <Badge variant="destructive">
           <TriangleAlert className="mr-2" />
-          Gambar harus kurang dari 10MB dan bertipe png, jpg, jpeg
+          {fileRejections[0].errors[0].code === 'file-too-large' &&
+            `Gambar harus kurang dari 10MB`
+          }
+          {fileRejections[0].errors[0].code === 'file-invalid-type' &&
+            `Jenis file tidak valid. Hanya gambar (png, jpg, jpeg) yang diizinkan.`
+          }
+          {fileRejections[0].errors[0].code === 'too-many-files' &&
+            `Hanya menerima satu gambar.`
+          }
+          {/* Fallback for other potential errors not explicitly handled */}
+          {(!['file-too-large', 'file-invalid-type', 'too-many-files'].includes(fileRejections[0].errors[0].code)) &&
+            `Gagal mengunggah gambar: ${fileRejections[0].errors[0].message}`
+          }
         </Badge>
       )}
     </div>

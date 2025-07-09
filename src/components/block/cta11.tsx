@@ -39,7 +39,7 @@ const Cta11 = ({
         <div className="shrink-0 hidden lg:block">
           <div className="flex flex-col justify-center gap-4 sm:flex-row sm:items-center">
             <div className="relative h-32 w-32 overflow-hidden rounded-lg sm:h-40 sm:w-40">
-              <Image src={imageSrc} alt={heading} placeholder="blur" className="h-full w-full object-cover" />
+              <Image src={imageSrc} alt={heading} className="h-full w-full object-cover" />
             </div>
           </div>
         </div>

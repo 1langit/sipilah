@@ -28,7 +28,7 @@ const Guide = () => {
                     </AlertDialogTitle>
                     <AlertDialogDescription asChild>
                         <div className="text-left text-sm text-muted-foreground">
-                            <Image src={PreviewImage} alt="preview" placeholder="blur" />
+                            <Image src={PreviewImage} alt="preview" />
                             <br />
                             <b>Cukup unggah foto, dan AI kami akan:</b>
                             <ul className="space-y-1 pt-2">

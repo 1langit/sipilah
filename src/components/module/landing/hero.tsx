@@ -16,12 +16,13 @@ export default function Hero() {
                     priority
                     placeholder="blur"
                 />
-                <div className="absolute -z-10 inset-0 bg-gradient-to-r from-green-600 to-green-600/0"></div>
+                <div className="absolute -z-10 inset-0 bg-gradient-to-r from-green-600 to-green-600/20 md:to-green-600/0"></div>
                 <div className="max-w-6xl lg:w-full md:px-4 text-white text-center lg:text-left pb-12">
                     <h1 className="mt-8 max-w-2xl text-5xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
                         Kenali Sampah, Rawat Bumi
                     </h1>
                     <p className="mt-8 max-w-2xl text-pretty text-lg font-medium">
+                        <b>Sipilah</b>:
                         Sosialisasi Cerdas Pengelolaan Sampah
                     </p>
                     <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
