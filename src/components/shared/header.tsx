@@ -29,7 +29,7 @@ export const HeaderSection = () => {
                 aria-label="home"
                 className="text-xl font-bold flex items-center space-x-2"
               >
-                <Image src={LogoImage} alt="logo" className="w-8 me-4" />
+                <Image src={LogoImage} alt="logo" priority className="w-8 me-4" />
                 SiPilah
               </Link>
 

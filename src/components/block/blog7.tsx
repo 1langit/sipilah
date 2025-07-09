@@ -97,6 +97,7 @@ const Blog7 = ({
                 <Image
                   src={post.image}
                   alt={post.title}
+                  placeholder="blur"
                   fill
                   className="h-full w-full object-cover object-center"
                 />

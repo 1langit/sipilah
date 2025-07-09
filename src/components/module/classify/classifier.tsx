@@ -35,7 +35,7 @@ const Classifier = () => {
 
         setIsLoading(true);
         setOutput("AI sedang menganalisis...");
-        setInfo("Analisis memakan waktu 30-60 detik.");
+        setInfo("Analisis memakan waktu beberapa detik.");
 
         try {
             const model = await tf.loadLayersModel("tfjs_model_v4/model.json");
@@ -108,7 +108,7 @@ const Classifier = () => {
                     <h1 className="my-6 mt-0 text-4xl font-semibold text-balance lg:text-5xl">
                         {output}
                     </h1>
-                    <p className="mb-8 max-w-xl text-muted-foreground lg:text-lg">
+                    <p className="mb-8 max-w-xl text-green-500 font-semibold lg:text-lg">
                         <StreamingText text={info} speed={100} />
                     </p>
                     <div className="flex w-full justify-center gap-2 lg:justify-start px-6 lg:p-0">

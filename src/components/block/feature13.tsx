@@ -63,6 +63,7 @@ const Feature13 = ({
                   <Image
                     src={feature.image}
                     alt={feature.title}
+                    placeholder="blur"
                     className="h-full w-full object-cover"
                   />
                 </div>

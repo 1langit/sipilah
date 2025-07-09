@@ -62,6 +62,7 @@ const Feature74 = ({
               <Image
                 src={feature1.image}
                 alt={feature1.name}
+                placeholder="blur"
                 fill
                 className="aspect-16/9 h-full w-full object-cover object-center"
               />
@@ -89,6 +90,7 @@ const Feature74 = ({
               <Image
                 src={feature2.image}
                 alt={feature2.name}
+                placeholder="blur"
                 fill
                 className="aspect-16/9 h-full w-full object-cover object-center"
               />
