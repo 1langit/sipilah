@@ -50,16 +50,16 @@ const Classifier = () => {
                     desc: "Sampah B3 adalah limbah yang mengandung zat berbahaya dan beracun yang dapat membahayakan kesehatan manusia dan lingkungan, seperti limbah medis, pestisida, dan bahan kimia beracun. Pengolahannya harus dilakukan secara khusus, misalnya dengan metode kimia, fisik, atau biologis untuk mengurangi sifat berbahaya sebelum dibuang atau disimpan di tempat yang aman.",
                 },
                 {
-                    type: "Residu",
-                    desc: "Sampah residu adalah sampah yang tidak dapat didaur ulang atau diolah kembali dan biasanya harus dibuang ke tempat pembuangan akhir. Pengolahan residu biasanya dilakukan dengan cara pemusnahan atau penimbunan yang aman agar tidak mencemari lingkungan.",
-                },
-                {
                     type: "Daur ulang",
                     desc: "Sampah daur ulang adalah sampah yang masih bisa diolah kembali menjadi bahan atau produk baru, seperti kertas, plastik, dan logam. Pengolahan sampah ini dilakukan dengan proses pengumpulan, pemilahan, pencucian, dan pengolahan ulang agar dapat digunakan kembali dan mengurangi limbah yang masuk ke tempat pembuangan akhir.",
                 },
                 {
                     type: "Organik",
                     desc: "Sampah organik adalah sampah yang berasal dari bahan-bahan alami seperti sisa makanan, daun, dan limbah tanaman yang dapat terurai secara alami. Pengolahan sampah organik biasanya dilakukan dengan cara komposting atau pengolahan biologis agar menjadi pupuk yang bermanfaat bagi tanah.",
+                },
+                {
+                    type: "Residu",
+                    desc: "Sampah residu adalah sampah yang tidak dapat didaur ulang atau diolah kembali dan biasanya harus dibuang ke tempat pembuangan akhir. Pengolahan residu biasanya dilakukan dengan cara pemusnahan atau penimbunan yang aman agar tidak mencemari lingkungan.",
                 },
             ];
             
