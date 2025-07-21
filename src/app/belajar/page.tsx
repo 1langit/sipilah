@@ -1,6 +1,7 @@
 import { Cta11 } from "@/components/block/cta11";
 import { NotebookPen } from "lucide-react";
 import QuizImage from "@/assets/quiz.jpg"
+import { Blog8 } from "@/components/block/blog8";
 
 export default function LearnPage() {
     return (
@@ -15,12 +16,24 @@ export default function LearnPage() {
                         buttonText="Buka Kuis"
                         buttonHref="/kuis"
                     />
-                    <div></div>
-                    <div></div>
-                    {/* <div>
-                        <h2 className="text-3xl font-semibold pb-4">Informasi Lainnya</h2>
-                        <p>Saat ini tidak ada informasi lain.</p>
-                    </div> */}
+                    <Blog8
+                        heading="Wawasan Lainnya"
+                        description="Jelajahi berbagai konten pengolahan sampah untuk memperdalam pemahamanmu"
+                        posts={[
+                            {
+                                id: "post-1",
+                                title:
+                                    "Infografis Pemilahan Sampah",
+                                summary:
+                                    "Pelajari kembali pemilahan sampah secara komprehensif",
+                                label: "Infografis",
+                                author: "Infografis",
+                                published: "20 Jul 2025",
+                                url: "/infografis-sipilah.png",
+                                image: "/infografis-sipilah.png",
+                            },
+                        ]}
+                    />
                 </div>
             </div>
         </main>
