@@ -80,6 +80,7 @@ const Blog8 = ({
                                     <h3 className="text-xl font-semibold md:text-2xl lg:text-3xl">
                                         <a
                                             href={post.url}
+                                            target="_blank"
                                             className="hover:underline"
                                         >
                                             {post.title}
@@ -98,6 +99,7 @@ const Blog8 = ({
                                     <div className="mt-6 flex items-center space-x-2 md:mt-8">
                                         <a
                                             href={post.url}
+                                            target="_blank"
                                             className="inline-flex items-center font-semibold hover:underline md:text-base"
                                         >
                                             <span>Selengkapnya</span>
@@ -106,7 +108,7 @@ const Blog8 = ({
                                     </div>
                                 </div>
                                 <div className="order-first sm:order-last sm:col-span-5">
-                                    <a href={post.url} className="block">
+                                    <a href={post.url} target="_blank" className="block">
                                         <div className="relative aspect-video lg:aspect-[5/6] overflow-clip rounded-lg border border-border">
                                             <Image
                                                 src={post.image}

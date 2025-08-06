@@ -32,6 +32,18 @@ export default function LearnPage() {
                                 url: "/infografis-sipilah.png",
                                 image: "/infografis-sipilah.png",
                             },
+                            {
+                                id: "post-2",
+                                title:
+                                    "Sampah Selesai di Desa!",
+                                summary:
+                                    "KSM Sejahtera Dusun Josari-Ngancar",
+                                label: "Video",
+                                author: "Video",
+                                published: "29 Jul 2025",
+                                url: "https://youtu.be/9s3a-A8HU84",
+                                image: "/cover-ksm-sejahtera.png",
+                            },
                         ]}
                     />
                 </div>
